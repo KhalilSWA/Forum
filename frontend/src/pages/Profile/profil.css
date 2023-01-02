@@ -1,0 +1,95 @@
+.ProfileProfile img {
+    border-radius: 50%;
+    margin: 26px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #dde1e7;
+}
+.asideprofile-card {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    height: 250px;
+    background: #dde1e7;
+    box-shadow:
+    -3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+    background-size: cover;
+    overflow: hidden;
+    transition: all ease 0.3s;
+}
+.asideprofile-card:hover {
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 
+    -3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.asideprofile-card:hover .ProfileProfile img {
+    animation: profile_image 2000ms linear both;
+    animation-delay: 0.5s;
+}
+.ProfileProfile {
+    text-align:center;
+}
+.ProfileProfile h1 {
+    position: relative;
+    color: black;
+    text-shadow:
+    -3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 10px;
+    transition: all ease 0.25s;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff
+}
+.asideprofile-card:hover .ProfileProfile h1{
+    margin-top: 0px;
+    outline: 0 solid #fff;
+    border-top: 0px solid #fff;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+.ProfileProfile h2 {
+    text-align:center;
+    color: black;
+    text-shadow:
+    -3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 25px;
+}
+.profile-bio {
+margin-top: 20px;
+padding: 1px 20px 10px 20px !important;
+transition: all linear 1.5s;
+color: black;
+text-shadow:
+-3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+font-size: 14px;
+opacity: 0;
+}
+.asideprofile-card:hover .profile-bio{
+    opacity: 1;
+}
+.profile-bio p:first-child {
+    text-align: center;
+    font-size: 16px;
+}
+.button {
+    background: #dde1e7;
+    box-shadow:
+    -3px -3px 7px #fffdfdb7 , 2px 2px 5px rgba(94, 104, 121, 0.288);
+    border: none;
+    padding: 13px 35px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 60px 110px;
+}
